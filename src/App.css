@@ -1,0 +1,175 @@
+ul {
+  margin: 0; 
+  padding: 0; 
+  border: 0;
+}
+
+.landing-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.landing-content-logo-left {
+  width: 45%;
+  height: auto;
+  background-color: #209AFB;
+  display: flex;
+  align-items: center;
+}
+
+.landing-logo {
+  width: 70%;
+  height: 70%;
+  margin: auto;
+}
+
+.input-home {
+  border: none;
+  text-align: left;
+  margin-left: 30px;
+  height: 19px;
+  border-radius: 15px;
+}
+
+.input-home-pass {
+  border: none;
+  text-align: left;
+
+  height: 19px;
+  border-radius: 15px;
+}
+
+.landing-logo-small {
+  width: 10%;
+  height: 10%;
+  margin-top: 4%;
+  margin-left: 4%;
+}
+
+.landing-content-logo-rigth {
+  width: 55%;
+  height: auto;
+}
+
+.landing-title {
+  font-weight: 700;
+  font-size: 70px;
+  width: 100%;
+  margin-left: 4%;
+  margin-top: 6%;
+}
+
+.landing-subtitle {
+  font-weight: 700;
+  font-size: 40px;
+  width: 100%;
+  margin-left: 4%;
+  margin-top: 6%;
+}
+
+.landing-button-auth{
+  margin-left: 4%;
+  margin-top: 6%;
+  width: 50%;
+  height: 40px;
+  background-color: #f9f9f9 ;
+  border-radius: 40px;
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+}
+
+.landing-button-auth:hover{
+  background-color: #f2f2f2 ;
+}
+
+.landing-text-auth {
+  margin-left: 4%;
+  margin-top: 1%;
+  font-size: 12px;
+  width: 50%;
+  color: gray;
+}
+
+.landing-button-continue{
+  margin-left: 4%;
+  margin-top: 6%;
+  width: 50%;
+  height: 40px;
+  background-color: #5ca7e0;
+  border-radius: 40px;
+  border: 1px solid #5ca7e0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.landing-button-continue:hover{
+  background-color: #3e7dad;
+}
+
+.landing-footer {
+  width: 100%;
+  height: auto;
+  line-height: 2.8;
+  font-size: 14px;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+.landing-form {
+  width: 45%;
+  height: auto;
+  background-color: #E5F5FD;
+  border-radius: 15px;
+  padding: 2%;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+
+.landing-footer-display {
+  display: inline;
+  margin-left: 2%;
+}
+
+@media screen and (max-width: 980px) {
+  .landing-content-logo-left {
+    width: 100%;
+    margin-top: 10%;
+    
+  }
+
+  .landing-content-logo-rigth {
+    width: 100%;
+  } 
+
+  .landing-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .landing-content-logo-left{
+    order: 1;
+    flex: 1 0 100%;
+  }
+
+  .content-news-right {
+    display: none;
+  }
+
+  .landing-footer {
+    order: 2;
+    text-align: center;
+  }
+
+  .content-news-center {
+    width: 70%;
+    height: auto;
+    border-left: 1px solid #E5F5FD;
+    border-right: 1px solid #E5F5FD;
+  }
+
+}
+
